@@ -1,4 +1,4 @@
-# ImmuniWeb API Data Extraction Script
+# ImmuniWeb API XLS Report Generator
 ## Descripción
 
 Este script en Python automatiza la generación de reportes XLS de diferentes pestañas de un proyecto de **Discovery ImmuniWeb** utilizando la API. 
