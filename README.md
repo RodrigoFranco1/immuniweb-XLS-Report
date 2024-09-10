@@ -35,7 +35,7 @@ pip install requests pandas
 
 - **Clona este repositorio o descarga el script**
 ```bash
-git clone [https://github.com/RodrigoFranco1/immuniweb-XLS-Report.git](https://github.com/RodrigoFranco1/immuniweb-XLS-Report.git)
+git clone https://github.com/RodrigoFranco1/immuniweb-XLS-Report.git
 ```
 - **Configura tus credenciales de la API de ImmuniWeb (API Key ID, API Secret Key & Discovery ID) en el script.**
 
