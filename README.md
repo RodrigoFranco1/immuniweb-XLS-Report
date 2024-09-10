@@ -42,12 +42,10 @@ git clone https://github.com/RodrigoFranco1/immuniweb-XLS-Report.git
 ```bash
 python immuniweb_data_extraction.py
 ```
+---
+![image](https://github.com/user-attachments/assets/4818d481-6f1b-46ba-8ffe-03662ede8765)
 
-
-
-
-
-
+---
 ![image](https://github.com/user-attachments/assets/cc52bd9e-53fe-4542-bfb1-7aabe3e4aab3)
 
 
