@@ -7,10 +7,10 @@ Este script en Python automatiza la extracción de datos de diferentes pestañas
 ## Características principales
 
 - **Solicitudes a la API de ImmuniWeb**: El script realiza solicitudes para cada una de las pestañas del proyecto.
-- **Manejo de respuestas en cola**: Si la API devuelve el mensaje que indica que la solicitud está en cola (`"This query has been added to queue..."`), el script espera 2 minutos antes de volver a intentarlo, garantizando que no se avance hasta obtener una respuesta completa.
+- **Manejo de respuestas en cola**: Si la API devuelve el mensaje que indica que la solicitud está en cola (`"This query has been added to queue..."`), el script espera 1 minuto antes de volver a intentarlo, garantizando que no se avance hasta obtener una respuesta completa.
 - **Almacenamiento en archivos JSON**: Los datos de cada pestaña se guardan en archivos `.json` individuales, nombrados según la pestaña solicitada (por ejemplo, `domains.json`, `webapps.json`, etc.).
-- **Consolidación de datos**: Una vez que se han solicitado y guardado todas las pestañas, el script toma los archivos `.json` y los convierte en un archivo Excel consolidado (`immuniweb_all_tabs_report.xlsx`) para facilitar su análisis.
-- **Configuración de delays**: El script aplica un retraso de 2 minutos entre las solicitudes para evitar sobrecargar la API y respetar las políticas de espera de la misma.
+- **Consolidación de datos**: Una vez que se han solicitado y guardado todas las pestañas, el script toma los archivos `.json` y los convierte en un archivo Excel consolidado (`report.xlsx`) para facilitar su análisis.
+- **Configuración de delays**: El script aplica un retraso de 1 minuto entre las solicitudes para evitar sobrecargar la API y respetar las políticas de espera de la misma.
 
 ## Requisitos
 
@@ -26,3 +26,16 @@ Instala las dependencias necesarias ejecutando:
 
 ```bash
 pip install requests pandas
+```
+## USO
+
+- **Clona este repositorio o descarga el script**
+```bash
+git clone https://github.com/RodrigoFranco1/immuniweb-XLS-Report.git
+```
+- **Configura tus credenciales de la API de ImmuniWeb (API Key ID, API Secret Key & Discovery ID) en el script.**
+
+ - **Ejecuta el script en tu terminal o entorno de desarrollo**:
+```bash
+python immuniweb_data_extraction.py
+```
