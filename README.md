@@ -2,7 +2,11 @@
 
 ## Descripción
 
-Este script en Python automatiza la extracción de datos de diferentes pestañas de un proyecto de **ImmuniWeb** utilizando su API. Está diseñado para realizar solicitudes consecutivas a la API para las pestañas **domains**, **webapps**, **network**, **mobileapps**, **incidents**, **cloud**, y **repositories**, manejando las respuestas en cola de forma eficiente y guardando los resultados en archivos `.json`. Finalmente, el script consolida los datos de todas las pestañas y los exporta a un único archivo Excel para su análisis.
+Este script en Python automatiza la generación de reportes XLS de diferentes pestañas de un proyecto de **Discovery ImmuniWeb** utilizando la API. 
+
+Está diseñado para realizar solicitudes consecutivas a la API para las pestañas **domains**, **webapps**, **network**, **mobileapps**, **incidents**, **cloud**, y **repositories**, manejando las respuestas en cola de forma eficiente y guardando los resultados en archivos `.json`. 
+
+Finalmente, el script consolida los datos de todas las pestañas y los exporta a un único archivo Excel para su análisis.
 
 ## Características principales
 
